@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+            <div class="name-text">
+                <span class="first-name">Monica</span>
+                <span class="second-name">Mukanda</span>
+                <div>
+                <img src="profile.jpg" alt="My profile picture" class="profile-pic">
+                </div>
+                <p>
+            Welcome to my portfolio! I am a passionate and driven third-year student at the University of Nairobi, pursuing a Bachelor of Information Science. With a keen interest in technology and innovation, I am also undertaking software development training through the Power Learn Project.This program has equipped me with hands-on experience in database design,HTML,and Python programming,complementing my academic foundation in database management,information retrieval,and data analysis.
+            <a href="my_cv.pdf" download class="cv-button">download my cv</a>
+        </p>
+        
+    
+    </section>
+
+    <section id="interests">
+        <h2>My Interests</h2>
+        <div class="interests-container">
+          <div class="interest-item">
+            <i class="fas fa-database"></i> 
+            <h3>Database Designing</h3>
+            <p>Creating efficient and organized database structures for data management.</p>
+          </div>
+          <div class="interest-item">
+            <i class="fab fa-html5"></i> 
+            <h3>HTML</h3>
+            <p>Building the structure and content of web pages with semantic markup.</p>
+          </div>
+          <div class="interest-item">
+            <i class="fab fa-python"></i> 
+            <h3>Python</h3>
+            <p>Exploring Python for data analysis and gaining insights from data.</p>
+          </div>
+          <div class="interest-item">
+            <i class="fas fa-code"></i> 
+            <h3>Web Development</h3>
+            <p>Building responsive and user-friendly websites.</p>
+        
+      </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+<footer>
+    <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+</footer>

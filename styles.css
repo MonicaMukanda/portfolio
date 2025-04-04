@@ -1,0 +1,124 @@
+body {
+    background-color: #e6c9ff; /* light pink */
+    font-family: sans-serif;
+}
+h1 {
+    color: violet;
+}
+
+#about {
+    padding: 80px 20px;
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  #about h2 {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center; /* Center the heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  .name-text {
+    text-align: center;
+    flex-direction: column; 
+  }
+  
+.first-name {
+    font-size: 20;
+    color: #333;
+    
+  }
+  
+  .last-name {
+    font-size: 20;
+    color: #333
+  }
+
+  
+  
+.profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 10px; /* Add margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  
+.cv-button {
+    display: inline-block;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-top: 30px; /* Add margin */
+  }
+  
+.cv-button:hover {
+    background-color: #b30068;
+  }
+  
+
+#interests {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Light background */
+  }
+
+#interests h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+.interest-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+.interest-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+.interest-item i {
+    font-size: 2em;
+    color: #007bff; /* Example color */
+    margin-bottom: 15px;
+  }
+  
+.interest-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+.interest-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.section-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Adjust as needed */
+    overflow: hidden; /* Ensure rounded corners work properly */
+}
+  
+
