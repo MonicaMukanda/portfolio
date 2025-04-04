@@ -8,7 +8,7 @@ h1 {
 
 #about {
     padding: 80px 20px;
-    background-color: #f9f9f9; /* Light background */
+    background-color:#e6c9ff /* Light background pink */
   }
   
   #about h2 {
@@ -18,35 +18,8 @@ h1 {
     text-align: center; /* Center the heading */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
-  .name-text {
-    text-align: center;
-    flex-direction: column; 
-  }
-  
-.first-name {
-    font-size: 20;
-    color: #333;
-    
-  }
-  
-  .last-name {
-    font-size: 20;
-    color: #333
-  }
+ 
 
-  
-  
-.profile-pic {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
-    border-radius: 10%;
-    object-fit: cover;
-    margin: 10px; /* Add margin */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  
-  
 .cv-button {
     display: inline-block;
     background-color: blueviolet;
@@ -56,18 +29,45 @@ h1 {
     border-radius: 8px;
     font-weight: 600;
     transition: background-color 0.3s ease;
-    margin-top: 30px; /* Add margin */
+    margin-top: 30px; /* Adds margin */
   }
   
 .cv-button:hover {
-    background-color: #b30068;
+    background-color:violet;
   }
   
+  profile-container {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px 20px;
+  }
+  
+.profile-pic {
+    width: 150px; 
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin: 10px; /* Adds margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  
+.greeting {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.name {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
 
 #interests {
     padding: 50px 20px;
     text-align: center;
-    background-color: #f4f4f4; /* Light background */
+    background-color: #f4f4f4; 
   }
 
 #interests h2 {
@@ -84,21 +84,22 @@ h1 {
   }
   
 .interest-item {
-    background-color: #fff;
+    background-color:#e6c9ff;
     border-radius: 8px;
     padding: 30px;
-    width: 300px; /* Adjust as needed */
+    width: 300px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
   }
   
 .interest-item:hover {
     transform: translateY(-5px); /* Slight lift on hover */
+    background-color:#e6c9ff;
   }
   
 .interest-item i {
     font-size: 2em;
-    color: #007bff; /* Example color */
+    color: #007bff; 
     margin-bottom: 15px;
   }
   
@@ -114,11 +115,11 @@ h1 {
 }
 
 .section-container {
-    background-color: #fff;
+    background-color:#9282a0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px; /* Adjust as needed */
-    overflow: hidden; /* Ensure rounded corners work properly */
+    margin: 20px;
+    overflow: hidden; /* Ensures rounded corners work properly */
 }
   
 
